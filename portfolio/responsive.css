@@ -1,0 +1,145 @@
+@media screen and (max-width: 1350px) {
+  .stats-list,
+  .skills-container {
+    width: 105rem;
+  }
+
+  main {
+    gap: 8rem;
+  }
+
+  .portrait {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .stats-list,
+  .skills-container {
+    width: 105rem;
+  }
+
+  html {
+    font-size: 58%;
+  }
+
+  .stats-list,
+  .skills-container {
+    gap: 3rem;
+    max-width: 100rem;
+  }
+
+  .stats-list {
+    gap: 12rem;
+  }
+
+  .skill-name {
+    font-size: 3rem;
+  }
+
+  .stat-number {
+    font-size: 6rem;
+    line-height: 3.8rem;
+  }
+
+  .stat-label {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    padding: 3rem 6rem;
+  }
+
+  header {
+    margin-bottom: 8rem;
+  }
+
+  main {
+    flex-direction: column-reverse;
+    gap: 4.5rem;
+  }
+
+  .section-description {
+    width: auto;
+    line-height: 3.5rem;
+    display: inline-block;
+  }
+
+  .portrait {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .main-left {
+    align-items: center;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
+
+  .info-container {
+    gap: 5rem;
+  }
+
+  .stats-list,
+  .skills-container {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .stats-list {
+    width: 35rem;
+  }
+
+  .stat-number {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info-container {
+    flex-direction: column;
+  }
+  form {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 2rem;
+  }
+  body {
+    padding: 3rem 3rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav {
+    display: none;
+  }
+  form {
+    max-width: 45rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  form {
+    max-width: 40rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  form {
+    max-width: 35rem;
+  }
+}

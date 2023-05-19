@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <spann class="logo">Ben Salah</spann>
+      </div>
+      <nav>
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact me</a>
+      </nav>
+    </header>
+    <main>
+      <div class="main-left">
+        <h1 class="welcome-text">
+          Hi, I am <br />
+          Samir Ben Salah
+        </h1>
+        <h3 class="job-text">Full stack developer</h3>
+        <div class="btn-container">
+          <button class="btn btn-primary">Download CV</button>
+          <button class="btn btn-secondary">Learn more</button>
+        </div>
+      </div>
+      <div class="main-right">
+        <div class="image-container">
+          <img
+            class="portrait"
+            src="images/picture.jpg"
+            alt="Samir Ben Salah's portrait"
+          />
+        </div>
+      </div>
+    </main>
+    <section id="about">
+      <div class="about-container">
+        <h2 class="section-title">About</h2>
+        <p class="section-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident
+        </p>
+        <div class="info-container">
+          <div class="info-item">
+            <i class="fa-solid fa-signature info-icon"></i>
+            <span class="item-title">Full Name</span>
+            <span class="item-description">Mounir Ben Salah</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-envelope info-icon"></i>
+            <span class="item-title">Email Address</span>
+            <span class="item-description">mounir@bensalah.com</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-brands fa-twitter info-icon"></i>
+            <span class="item-title">Twitter</span>
+            <span class="item-description">@Mounir_ben_salah</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone info-icon"></i>
+            <span class="item-title">Phone</span>
+            <span class="item-description">25 662 887</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="services-container">
+        <h2 class="section-title">What I do</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fa-solid fa-code skill-icon"></i>
+            <span class="skill-name"
+              >Software <br />
+              Developement</span
+            >
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-dev skill-icon"></i>
+            <span class="skill-name"
+              >Web <br />
+              Developement</span
+            >
+          </div>
+          <div class="skill-card">
+            <i class="fa-solid fa-pen-nib skill-icon"></i>
+            <span class="skill-name"
+              >User <br />
+              Interface</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="stats-container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="stats-list">
+          <div class="stat-item">
+            <span class="stat-number">90%</span>
+            <span class="stat-label">HTML</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">85%</span>
+            <span class="stat-label">CSS</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">80%</span>
+            <span class="stat-label">JAVASCRIPT</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">79%</span>
+            <span class="stat-label">REACT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container">
+        <h2 class="section-title">Get in touch</h2>
+        <form>
+          <div class="input-container">
+            <input type="text" placeholder="First name" />
+            <input type="text" placeholder="Last name" />
+          </div>
+          <div class="input-container">
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Phone number" />
+          </div>
+          <textarea cols="30" rows="10" placeholder="Message"></textarea>
+          <button class="btn btn-primary">Submit now</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <span class="footer-text">© BenSalah 2023</span>
+    </footer>
+  </body>
+</html>
